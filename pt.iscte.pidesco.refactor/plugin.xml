@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="extensionID" name="extensionName" schema="schema/extensionID.exsd"/>
+   <extension
+         id="testViewId"
+         name="Refactor View"
+         point="pt.iscte.pidesco.view">
+      <view
+            class="pt.iscte.pidesco.refactorMain.RefactorView"
+            icon="icon.png">
+      </view>
+   </extension>
+
+</plugin>
